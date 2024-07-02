@@ -1,0 +1,37 @@
+*{
+ margin: 0;
+ padding: 0;
+}
+body{
+ font-size: 18px;
+ font-family:Arial, Helvetica, sans-serif;
+ color: black;
+ box-sizing: border-box;
+}
+ul{
+ list-style: none;
+}
+.container{
+ width: 1150px;
+ margin: 65px auto;
+}
+li {
+ box-sizing: border-box;
+ display:inline-table;
+ width: 360px;
+ height: 310px;
+ color: black;
+ background-color: aliceblue;
+ padding: 0px 30px;
+}
+.content h2{
+ font-size: 35px;
+ width: 850px;
+ margin-bottom: 55px;
+}
+
+.part  i{
+ font-size: 35px;
+ margin-top: 50px;
+ margin-bottom: 25px;
+}

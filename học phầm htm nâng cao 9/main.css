@@ -1,0 +1,94 @@
+*{
+ padding: 0;
+ margin: 0;
+}
+body{
+ font-size: 18px;
+ font-family: Arial, Helvetica, sans-serif;
+ color: black;
+}
+ul{
+ list-style: none;
+}
+.menu{
+ width: 1140px;
+ margin: 30px auto;
+}
+.menu h2{
+ font-weight: 500;
+ margin-bottom: 40px;
+}
+.menu h2::after{
+ content: "";
+ display: block;
+ width:  60px;
+ height: 3px;
+ background-color: #FFB737;
+ transform: translateY(10px);
+}
+.part-1{
+ float: left;
+ width: 240px;
+ color: #999999;
+}
+.part-1 h3{
+ font-weight: 300;
+ margin-bottom: 25px;
+ color: black;
+}
+.part-1 li{
+ line-height: 1.4;
+    margin-bottom: 36px;
+    padding-left: 48px;
+    position: relative;
+}
+.part-1 i{
+ width: 30px;
+text-align: center;
+ display: inline-block ;
+ left: 0;
+ top: 2px;
+ position: absolute;
+ font-size: 27px;
+}
+.part-1 li{
+ margin-bottom: 30px;
+}
+.part-2{
+ float: right;
+ width: 750px;
+}
+.part-2 h3{
+ font-weight: 400;
+ margin-bottom: 30px;
+}
+input[type="text"],
+input[type="mail"],
+textarea{
+padding-left: 10px;
+padding-right: 10px;
+border: #a5a4a2 1px solid;
+box-shadow: 0 1px 2px 0 #ddd inset;
+}
+input[type="text"],
+input[type="mail"]{
+ height: 40px;
+ width: 750px;
+}
+textarea{
+ width: 750px;
+ height: 110px;
+}
+.part-2 p{
+ margin-bottom: 15px;
+}
+button{
+  padding: 10px 15px ;
+  background-color: #0CB8B6;
+  border: #0CB8B6;
+  color: aliceblue;
+  transition: 0.3s all;
+}
+button:hover{
+ background-color: #7fe4e2;
+}

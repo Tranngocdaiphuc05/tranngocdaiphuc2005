@@ -1,0 +1,18 @@
+*{
+ margin:0;
+ padding: 0;
+}
+body{
+ font-size: 18px;
+ font-family: Arial, Helvetica, sans-serif;
+ color: black;
+}
+ul{
+ list-style: none;
+}
+.container{
+ width: 1000px;
+ margin: 30px auto;
+ justify-content: center;
+ display: inline-flex;
+}
